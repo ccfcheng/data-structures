@@ -1,0 +1,58 @@
+// we have a tree, and a target we're looking for
+// we start at the top node (main tree)
+// start by checking value of top node against target
+// if matched, return true, we're done
+// if not, check through children
+// for each child, we do the steps from line 3 on
+
+
+
+
+return recursionFunc(doThis) || recursionFunc(doThat)
+
+    main tree
+ 
+   1                                   2      3
+
+
+
+false
+
+
+
+
+
+
+{value,children[ {value, children[]}, {value, children[]}, {value, children[]} ]}
+
+var x = {
+  links : {}
+  
+}
+
+view of storage object
+{
+  node1.value: {
+    node3.value: true,
+    node4.value: true
+  },
+  node2.value: {},
+  node3.value: {
+    node1.value: true
+  },
+  node4.value: {
+    node1.value: true
+  }
+}
+
+{ 'first': //pointer to first, 'second'://pointer to second, 'third':{'first':*anything*} }
+node1.value
+node1.edge = {
+  
+}
+
+
+node2.value
+node2.edge={
+  node1.value : node1,
+}
